@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake--game</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- <h1>score</h1> -->
+    <div class="score">score:
+         <span class="score--value">00</span>
+    </div>
+
+    <div class="menu-screen">
+        <span class="game-over">game over</span>
+        <span class="final-score"> <span>00</span> </span>
+
+        <button class="play-btn">
+            <span class="material-symbols-outlined">stadia_controller</span> 
+                Play again
+        </button>
+    </div>
+
+
+    <canvas width="600" height="600"></canvas> 
+        <!--o numero de pontos 600x600, eh diferent de declarar em css, pois mesmo se diminuirmos ou aumentamos em css, ainda vai ter 600 x 600 -->
+    <script src="./js/script.js"></script>
+</body>
+</html>
